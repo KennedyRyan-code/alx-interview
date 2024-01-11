@@ -1,7 +1,13 @@
 #!/usr/bin/python3
+"""A python module that determines if all boxes can be opened
+   from a list of lists
+"""
 
 
 def canUnlockAll(boxes):
+    """A function that returns True if all box in
+    boxes can be opend
+    """
     if not boxes or not boxes[0]:
         return False
 
