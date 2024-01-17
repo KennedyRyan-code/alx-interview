@@ -1,4 +1,14 @@
+#!/usr/bin/python3
+'''
+The minimum operations algorithim.
+'''
+
+
 def minOperations(n):
+    '''
+    Computes the fewest number of operations needed to result
+    in exactly n H characters.
+    '''
     if n <= 1:
         return 0
 
